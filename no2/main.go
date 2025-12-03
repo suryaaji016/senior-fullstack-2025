@@ -74,7 +74,7 @@ func main() {
     }
 
     if len(result.Result) == 0 {
-        fmt.Println("❗ Search returned ZERO results")
+        fmt.Println("Search returned ZERO results")
         fmt.Println("Full response:", result)
         return
     }
